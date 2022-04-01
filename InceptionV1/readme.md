@@ -20,3 +20,7 @@
 #### Inception 모듈  
 - 병렬로 pooling
 - 연산량 때문에 1x1 cov사용 
+
+
+#### Reference
+https://arxiv.org/pdf/1409.4842.pdf
