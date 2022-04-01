@@ -11,8 +11,9 @@
 - overfitting이 발생하게되면 새로운 test데이터가 났을 때, 반응을 잘못함 
 
   
-#### Inception 구조 
-- layer가 깊어질수록 gradient vanishing이 발생하여 중간중간에 softmax를 뽑아냄 
+#### Inception 구조  
+- layer가 깊어질수록 gradient vanishing이 발생하여 중간중간에 softmax를 뽑아냄 = auxiliary classifiers
+![auxiliary classifiers](https://user-images.githubusercontent.com/70430385/161259057-a0235adf-2926-4a23-bca4-649ed33578ac.PNG)
 
 ![inceptionV1구조](https://user-images.githubusercontent.com/70430385/161255623-e18eacfd-9922-44d0-b907-852b6b4aa7a2.png)
 
@@ -21,7 +22,8 @@
 - 병렬로 pooling
 - 연산량 때문에 1x1 cov사용 
 
-#### Inception 모듈  auxiliary classifiers
+![inceptionV1모듈](https://user-images.githubusercontent.com/70430385/161259120-e5656712-bbe9-439b-9205-197a5d725fe1.png)
+
 
 #### Reference
 https://arxiv.org/pdf/1409.4842.pdf
