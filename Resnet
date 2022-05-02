@@ -1,8 +1,0 @@
-### Resnet 
-
-- optimazition : SGD
-- RL:0.1
-- weight decay : 0.0001
-- momentum : 0.9
-
-
